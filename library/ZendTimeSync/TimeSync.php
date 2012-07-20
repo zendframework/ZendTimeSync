@@ -8,12 +8,12 @@
  * @package   Zend_TimeSync
  */
 
-namespace Zend\TimeSync;
+namespace ZendTimeSync;
 
 use ArrayObject;
 use DateTime;
 use IteratorAggregate;
-use Zend\TimeSync\Exception;
+use ZendTimeSync\Exception;
 
 /**
  * @category   Zend
@@ -276,7 +276,7 @@ class TimeSync implements IteratorAggregate
             throw new Exception\RuntimeException("'$protocol' is not a supported protocol");
         }
 
-        $className = 'Zend\\TimeSync\\' . $protocol;
+        $className = 'ZendTimeSync\\' . $protocol;
         if ($port) {
             $timeServerObj = new $className($address, $port);
         } else {

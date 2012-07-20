@@ -8,7 +8,7 @@
  * @package   Zend_TimeSync
  */
 
-namespace Zend\TimeSync\Exception;
+namespace ZendTimeSync\Exception;
 
 /**
  * Exception class for Zend_TimeSync

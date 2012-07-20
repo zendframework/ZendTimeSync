@@ -8,9 +8,9 @@
  * @package   Zend_TimeSync
  */
 
-namespace Zend\TimeSync;
+namespace ZendTimeSync;
 
-use Zend\TimeSync\Exception;
+use ZendTimeSync\Exception;
 
 /**
  * NTP Protocol handling class

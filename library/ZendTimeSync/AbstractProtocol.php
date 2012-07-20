@@ -8,7 +8,7 @@
  * @package   Zend_TimeSync
  */
 
-namespace Zend\TimeSync;
+namespace ZendTimeSync;
 
 use DateTime;
 use Zend\Stdlib\ErrorHandler;

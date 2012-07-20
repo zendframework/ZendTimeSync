@@ -1,17 +1,24 @@
 {
-    "name": "zendframework/zend-timesync",
+    "name": "zendframework/zendtimesync",
     "description": "a component able to receive internet or network time from a time server using the NTP or SNTP protocol",
+    "type": "library",
     "license": "BSD-3-Clause",
     "keywords": [
         "zf2",
         "timesync"
     ],
+    "homepage": "http://packages.zendframework.com/",
     "autoload": {
         "psr-0": {
-            "Zend\\TimeSync": ""
+            "ZendTimeSync": "library/"
         }
     },
-    "target-dir": "Zend/TimeSync",
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "http://packages.zendframework.com/"
+        }
+    ],
     "require": {
         "php": ">=5.3.3",
         "zendframework/zend-stdlib": "self.version"

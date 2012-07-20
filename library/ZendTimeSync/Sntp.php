@@ -8,7 +8,7 @@
  * @package   Zend_TimeSync
  */
 
-namespace Zend\TimeSync;
+namespace ZendTimeSync;
 
 /**
  * SNTP Protocol handling class
